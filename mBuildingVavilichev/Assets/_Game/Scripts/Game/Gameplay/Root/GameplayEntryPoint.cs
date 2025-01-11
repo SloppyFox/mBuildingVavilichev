@@ -1,4 +1,4 @@
-using System;
+using R3;
 using UnityEngine;
 
 namespace SloppyFox
@@ -7,17 +7,19 @@ namespace SloppyFox
 	{
 		[SerializeField] private UIGameplayRootBinder _sceneUIRootPrefab;
 
-		public event Action GoToMainMenuSceneRequested;
-
-		public void Run(UIRootView uiRoot)
+		public Observable<GameplayExitParams> Run(UIRootView uiRoot)
 		{
 			var uiScene = Instantiate(_sceneUIRootPrefab);
 			uiRoot.AttachSceneUI(uiScene.gameObject);
 
-			uiScene.GoToMainMenuButtonClicked += () =>
-			{
-				GoToMainMenuSceneRequested?.Invoke();
-			};
+			var exitSceneSignalSubject = new Subject<Unit>();
+			uiScene.Bind(exitSceneSignalSubject);
+
+			var mainMenuEnterParams = new MainMenuEnterParams("MainMenuEnterParams");
+			var exitParams = new GameplayExitParams(mainMenuEnterParams);
+			var exitToMainMenuSceneSignal = exitSceneSignalSubject.Select(_ => exitParams);
+
+			return exitToMainMenuSceneSignal;
 		}
 	}
 }

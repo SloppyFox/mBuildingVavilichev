@@ -9,7 +9,7 @@ namespace SloppyFox
 
 		public event Action GoToGameplaySceneRequested;
 
-		public void Run(UIRootView uiRoot)
+		public void Run(UIRootView uiRoot, MainMenuEnterParams enterParams)
 		{
 			var uiScene = Instantiate(_sceneUIRootPrefab);
 			uiRoot.AttachSceneUI(uiScene.gameObject);
@@ -18,6 +18,8 @@ namespace SloppyFox
 			{
 				GoToGameplaySceneRequested?.Invoke();
 			};
+
+			Debug.Log($"MAIN MENU ENTRY POINT: Run main menu scene. Rsults: {enterParams?.Result}");
 		}
 	}
 }

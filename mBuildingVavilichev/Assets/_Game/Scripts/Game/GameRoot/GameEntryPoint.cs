@@ -1,4 +1,5 @@
 using System.Collections;
+using R3;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -68,22 +69,18 @@ namespace SloppyFox
 			yield return LoadScene(Scenes.BOOT);
 			yield return LoadScene(Scenes.GAMEPLAY);
 
-			yield return new WaitForSeconds(2);
+			yield return new WaitForSecondsRealtime(0.5f);
 
 			var sceneEntryPoint = Object.FindFirstObjectByType<GameplayEntryPoint>();
-			sceneEntryPoint.Run(_uiRootView);
-
-			// !!!
-			sceneEntryPoint.GoToMainMenuSceneRequested += () =>
+			sceneEntryPoint.Run(_uiRootView).Subscribe(exitParams =>
 			{
-				_coroutines.StartCoroutine(LoadAndStartMainMenu());
-			};
-			// !!!
+				_coroutines.StartCoroutine(LoadAndStartMainMenu(exitParams.MainMenuEnterParams));
+			});
 
 			_uiRootView.HideLoadingScreen();
 		}
 		
-		private IEnumerator LoadAndStartMainMenu()
+		private IEnumerator LoadAndStartMainMenu(MainMenuEnterParams enterParams = null)
 		{
 			_uiRootView.ShowLoadingScreen();
 
@@ -93,7 +90,7 @@ namespace SloppyFox
 			yield return new WaitForSeconds(2);
 
 			var sceneEntryPoint = Object.FindFirstObjectByType<MainMenuEntryPoint>();
-			sceneEntryPoint.Run(_uiRootView);
+			sceneEntryPoint.Run(_uiRootView, enterParams);
 
 			// !!!
 			sceneEntryPoint.GoToGameplaySceneRequested += () =>
