@@ -7,7 +7,7 @@ namespace SloppyFox
 	{
 		[SerializeField] private UIGameplayRootBinder _sceneUIRootPrefab;
 
-		public Observable<GameplayExitParams> Run(UIRootView uiRoot)
+		public Observable<GameplayExitParams> Run(UIRootView uiRoot, GameplayEnterParams enterParams)
 		{
 			var uiScene = Instantiate(_sceneUIRootPrefab);
 			uiRoot.AttachSceneUI(uiScene.gameObject);

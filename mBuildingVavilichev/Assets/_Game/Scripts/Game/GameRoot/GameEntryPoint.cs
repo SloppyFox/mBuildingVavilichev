@@ -2,6 +2,7 @@ using System.Collections;
 using R3;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEngine.ParticleSystem;
 
 namespace SloppyFox
 {
@@ -45,10 +46,10 @@ namespace SloppyFox
 
 			if (sceneName == Scenes.GAMEPLAY)
 			{
-				_coroutines.StartCoroutine(LoadAndStartGameplay());
+				_coroutines.StartCoroutine(LoadAndStartGameplay(new GameplayEnterParams()));
 				return;
 			}
-			
+
 			if (sceneName == Scenes.MAIN_MENU)
 			{
 				_coroutines.StartCoroutine(LoadAndStartMainMenu());
@@ -59,10 +60,10 @@ namespace SloppyFox
 				return;
 #endif
 
-			_coroutines.StartCoroutine(LoadAndStartGameplay());
+			_coroutines.StartCoroutine(LoadAndStartMainMenu());
 		}
 
-		private IEnumerator LoadAndStartGameplay()
+		private IEnumerator LoadAndStartGameplay(GameplayEnterParams enterParams)
 		{
 			_uiRootView.ShowLoadingScreen();
 
@@ -72,14 +73,14 @@ namespace SloppyFox
 			yield return new WaitForSecondsRealtime(0.5f);
 
 			var sceneEntryPoint = Object.FindFirstObjectByType<GameplayEntryPoint>();
-			sceneEntryPoint.Run(_uiRootView).Subscribe(exitParams =>
+			sceneEntryPoint.Run(_uiRootView, enterParams).Subscribe(exitParams =>
 			{
 				_coroutines.StartCoroutine(LoadAndStartMainMenu(exitParams.MainMenuEnterParams));
 			});
 
 			_uiRootView.HideLoadingScreen();
 		}
-		
+
 		private IEnumerator LoadAndStartMainMenu(MainMenuEnterParams enterParams = null)
 		{
 			_uiRootView.ShowLoadingScreen();
@@ -87,17 +88,15 @@ namespace SloppyFox
 			yield return LoadScene(Scenes.BOOT);
 			yield return LoadScene(Scenes.MAIN_MENU);
 
-			yield return new WaitForSeconds(2);
+			yield return new WaitForSecondsRealtime(0.5f);
 
 			var sceneEntryPoint = Object.FindFirstObjectByType<MainMenuEntryPoint>();
-			sceneEntryPoint.Run(_uiRootView, enterParams);
-
-			// !!!
-			sceneEntryPoint.GoToGameplaySceneRequested += () =>
+			sceneEntryPoint.Run(_uiRootView, enterParams).Subscribe(mainMenuExitParams =>
 			{
-				_coroutines.StartCoroutine(LoadAndStartGameplay());
-			};
-			// !!!
+				if (mainMenuExitParams.TargetSceneEnterParams.SceneName == Scenes.GAMEPLAY)
+					_coroutines.StartCoroutine(LoadAndStartGameplay(mainMenuExitParams.TargetSceneEnterParams.As<GameplayEnterParams>()));
+
+			});
 
 			_uiRootView.HideLoadingScreen();
 		}

@@ -7,32 +7,40 @@
       "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameroot\\gameentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|c:\\_dump\\02_projects\\git\\mbuildingvavilichev\\mbuildingvavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\gameplayentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\gameplayentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|c:\\_dump\\02_projects\\git\\mbuildingvavilichev\\mbuildingvavilichev\\assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|c:\\_dump\\02_projects\\git\\mbuildingvavilichev\\mbuildingvavilichev\\assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\gameplayexitparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\gameplayexitparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|c:\\_dump\\02_projects\\git\\mbuildingvavilichev\\mbuildingvavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\view\\uigameplayrootbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\view\\uigameplayrootbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|c:\\_dump\\02_projects\\git\\mbuildingvavilichev\\mbuildingvavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\gameplayentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\gameplayentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuexitparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuexitparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\gameplayexitparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\gameplayexitparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\gameplayenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\gameplayenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\mainmenu\\root\\view\\uimainmenurootbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\mainmenu\\root\\view\\uimainmenurootbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\gameplay\\root\\view\\uigameplayrootbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameplay\\root\\view\\uigameplayrootbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\gameroot\\sceneenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\gameroot\\sceneenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94553454-F902-45B8-8131-AADD81C3E10E}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\game\\mainmenu\\root\\mainmenuenterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,39 +54,50 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "UIMainMenuRootBinder.cs",
+              "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\View\\UIMainMenuRootBinder.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\View\\UIMainMenuRootBinder.cs",
+              "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\View\\UIMainMenuRootBinder.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\View\\UIMainMenuRootBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:01:41.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainMenuEntryPoint.cs",
               "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEntryPoint.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEntryPoint.cs",
               "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEntryPoint.cs",
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:49:08.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UIGameplayRootBinder.cs",
               "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\View\\UIGameplayRootBinder.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\View\\UIGameplayRootBinder.cs",
               "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\View\\UIGameplayRootBinder.cs",
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\View\\UIGameplayRootBinder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:25:21.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T16:25:21.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameplayEntryPoint.cs",
               "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEntryPoint.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEntryPoint.cs",
               "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEntryPoint.cs",
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:23:05.71Z",
               "EditorCaption": ""
@@ -86,25 +105,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainMenuEnterParams.cs",
-              "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
-              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
-              "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
-              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:16:42.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "MainMenuExitParams.cs",
               "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuExitParams.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuExitParams.cs",
               "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuExitParams.cs",
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuExitParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:16:13.574Z"
             },
@@ -118,18 +124,17 @@
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayExitParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:15:57.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T16:15:57.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "GameplayEnterParams.cs",
               "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEnterParams.cs",
               "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEnterParams.cs",
               "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEnterParams.cs",
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\Gameplay\\Root\\GameplayEnterParams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:15:41.832Z"
             },
@@ -141,10 +146,34 @@
               "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\GameRoot\\GameEntryPoint.cs",
               "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\GameRoot\\GameEntryPoint.cs",
               "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\GameRoot\\GameEntryPoint.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAmwGEAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAqwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T15:49:27.59Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SceneEnterParams.cs",
+              "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\GameRoot\\SceneEnterParams.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\GameRoot\\SceneEnterParams.cs",
+              "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\GameRoot\\SceneEnterParams.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\GameRoot\\SceneEnterParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T21:54:52.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainMenuEnterParams.cs",
+              "DocumentMoniker": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
+              "RelativeDocumentMoniker": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
+              "ToolTip": "C:\\_Dump\\02_Projects\\Git\\mBuildingVavilichev\\mBuildingVavilichev\\Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
+              "RelativeToolTip": "Assets\\_Game\\Scripts\\Game\\MainMenu\\Root\\MainMenuEnterParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:16:42.262Z"
             }
           ]
         }

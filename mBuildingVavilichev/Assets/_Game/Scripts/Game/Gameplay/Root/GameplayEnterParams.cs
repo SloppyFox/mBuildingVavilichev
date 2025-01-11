@@ -1,6 +1,9 @@
 ﻿namespace SloppyFox
 {
-	public class GameplayEnterParams
+	public class GameplayEnterParams : SceneEnterParams
 	{
+		public GameplayEnterParams() : base(Scenes.GAMEPLAY)
+		{
+		}
 	}
 }
